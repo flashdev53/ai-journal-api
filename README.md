@@ -2,17 +2,6 @@
 
 A FastAPI-based application that allows users to create journal entries and automatically analyzes them using AI to extract sentiment, summaries, topics, and detect potential struggles. The application stores the entries and their analysis in Azure Cosmos DB.
 
-## Features
-
-- **Health Check**: Endpoint to verify if the API is running.
-- **Create Journal Entry**: Submits a new journal entry. The text is automatically analyzed by an LLM (Language Model).
-- **AI Analysis**: Automatically analyzes journal text to determine:
-  - **Sentiment**: Positive, negative, or neutral.
-  - **Summary**: A concise 2-sentence summary of the entry.
-  - **Topics**: A list of key topics discussed in the entry.
-  - **Struggle Detected**: A boolean flag indicating if the entry reflects any struggles.
-- **Get All Entries**: Retrieves all saved journal entries from the database.
-- **Get Single Entry**: Retrieves a specific entry by its ID.
 
 ## Prerequisites
 
@@ -96,5 +85,6 @@ You can view the interactive API documentation (Swagger UI) at `http://127.0.0.1
 - `GET /entries` - Get a list of all entries.
 - `GET /entries/{entry_id}` - Get a specific entry by its ID.
 
+You may utilize any models or llms as needed; please ensure the code is updated accordingly.
 ---
-**Thank you for using the AI Journal API!**
+**Thank you!**
