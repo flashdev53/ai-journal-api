@@ -85,6 +85,5 @@ You can view the interactive API documentation (Swagger UI) at `http://127.0.0.1
 - `GET /entries` - Get a list of all entries.
 - `GET /entries/{entry_id}` - Get a specific entry by its ID.
 
-You may utilize any models or llms as needed; please ensure the code is updated accordingly.
 ---
 **Thank you!**
